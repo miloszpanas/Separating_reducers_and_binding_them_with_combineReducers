@@ -31,7 +31,7 @@ function comments(state = [], action) {
             return comment;
             });
         case PLUS_ONE:
-            return state.map(omment => {
+            return state.map(comment => {
                 if(comment.id === action.id) {
                     return {...comment, votes: comment.votes + 1}
                 }
