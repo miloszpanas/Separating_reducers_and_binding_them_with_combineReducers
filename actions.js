@@ -1,5 +1,4 @@
- import uuid from 'uuid';
- 
+import uuid from 'uuid';
 
 //  add comment -------------------------------------------------------------------
 
